@@ -8,7 +8,7 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
     color: #60490F;
     line-height: 1.7;
-    font-size: 16px;
+    font-size: 18px;
     background-color: #ffffff;
 }
 
@@ -52,4 +52,81 @@ ul {
 
 .btn:hover:hover {
     opacity: 0.8;
+}
+
+/* ==========================================
+   Header
+========================================== */
+
+.header {
+    background-image: url("../img/Mainevisual.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 748px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.header-logo {
+    text-align: center;
+    margin-top: 19px;
+}
+
+.header-logo img {
+    max-width: 220px;
+}
+
+.mv-content {
+    padding-bottom: 60px;
+}
+
+.mv-title {
+    color: #ffffff;
+    font-size: 4.875rem;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
+    margin: 82px auto 153px 111px;
+}
+
+.mv-buttons {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.mv-buttons .btn {
+    width: 300px;
+
+    text-align: center;
+}
+
+/* ==========================================
+   Nav
+========================================== */
+
+.nav {
+    background-color: #F5ECD5;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-item {
+    flex: 1;
+    text-align: center;
+}
+
+.nav-item a {
+    display: block;
+    padding: 15px 0;
+    font-weight: bold;
+}
+
+.nav-item a:hover {
+    opacity: 0.7;
 }
