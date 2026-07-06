@@ -130,3 +130,62 @@ ul {
 .nav-item a:hover {
     opacity: 0.7;
 }
+
+.nav li {
+border-left: #d3c7a6 1px solid;    
+}
+
+.nav li:last-child {
+    border-right: #d3c7a6 1px solid;
+}
+
+/* ==========================================
+   section 共通
+========================================== */
+
+.section-1,
+.section-2,
+.section-3 {
+    padding: 100px 30px;
+}
+
+.section-2 {
+    background-color: #f8f9fa;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* ==========================================
+   section-1
+========================================== */
+
+.section-1 .content {
+    display: flex;
+}
+
+.section-1 .content-img {
+    width: 50%;
+}
+
+.section-1 .content-text {
+    width: 50%;
+    padding: 39px 50px;
+}
+
+.section-1 .icon-list {
+    display: flex;
+    gap: 57.55px;
+    padding: 31.5px 0;
+}
+
+.section-1 .icon-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
