@@ -176,7 +176,7 @@ h2 {
 
 .section-1 .content-text {
     width: 50%;
-     display: flex;
+    display: flex;
     flex-direction: column;
     gap: 50px;
 }
@@ -200,7 +200,7 @@ h2 {
     height: auto;
     flex-shrink: 0;
     aspect-ratio: 1/1; */
-    
+
 
 }
 
@@ -249,7 +249,8 @@ h2 {
     border-radius: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;;
+    align-items: center;
+    ;
 }
 
 .section-2 .content-text p {
@@ -261,3 +262,99 @@ h2 {
     align-self: center;
 }
 
+/* ==========================================
+   section-3
+========================================== */
+
+.section-3 .content {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.section-3 .content-img {
+    width: 50%;
+}
+
+.section-3 .content-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.section-3 .step-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-3 .step-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.section-3 .step-list li:nth-child(2n+1) {
+    background-color: #F5ECD5;
+}
+
+.section-3 .step-list li:nth-child(2n) {
+width: 50px;
+}
+
+
+.section-3 .step-num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #60490F;
+}
+
+.section-3 .step-arrow {
+    color: #d9d9d9;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.section-3 .content-text p {
+    line-height: 1.7;
+}
+
+.section-3 .btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 400px;
+}
+
+/* ==========================================
+   footer
+========================================== */
+
+.footer {
+    background-color: #F5ECD5;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-catch {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-links,
+.copyright {
+    font-size: 14px;
+}
+
+.footer-links {
+    margin-bottom: 20px;
+}
