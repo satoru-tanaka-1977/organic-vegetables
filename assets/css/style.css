@@ -297,7 +297,13 @@ h2 {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    margin-right: 10px;
 }
+
+.section-3 .step-list li:last-child {
+    margin-right: 0;
+}
+
 
 .section-3 .step-list li:nth-child(2n+1) {
     background-color: #F5ECD5;
@@ -333,6 +339,7 @@ width: 50px;
     flex-direction: column;
     gap: 30px;
     width: 400px;
+    text-align: center;
 }
 
 /* ==========================================
